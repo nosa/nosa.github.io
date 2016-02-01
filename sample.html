@@ -57,17 +57,33 @@
         <a class="btn btn-sm" id="btnAddActivity">Add Activity</a>
         <a class="btn btn-sm" id="btnAddInput">Add Input</a>
         <a class="btn btn-sm" id="btnAddOutput">Add Output</a>
-        <a class="btn btn-sm btn-dark" id="btnDownloadImage">Download Image</a>
+        <a class="btn btn-sm btn-success" id="btnSave">Save</a>
+        <!-- <a class="btn btn-sm btn-dark" id="btnDownloadImage">Download Image</a> -->
     </div>
 </div>
 
 <div class="row" style="margin-top: 5px;">
     <div class="col md-12">
-        <div class="flow" style="text-align: center; background-color: #E8EAF6; overflow: hidden; height: 500px;"></div>
+        <div class="flow" style="text-align: center; background-color: #E8EAF6; overflow: hidden; height: 400px;"></div>
     </div>
 </div>
 
-<canvas id="cvs"></canvas>
+<div class="row" style="margin-top: 5px;">
+    <div class="col md-4">
+        <label>New Objects</label>
+        <textarea id="txtResultNew" style="width: 100%"></textarea>
+    </div>
+    <div class="col md-4">
+        <label>Update Objects</label>
+        <textarea id="txtResultUpdate" style="width: 100%"></textarea>
+    </div>
+    <div class="col md-4">
+        <label>Delete Objects</label>
+        <textarea id="txtResultDelete" style="width: 100%"></textarea>
+    </div>
+</div>
+
+<!-- <canvas id="cvs"></canvas> -->
 
 <script type="text/javascript" src="http://gabelerner.github.io/canvg/rgbcolor.js"></script> 
 <script type="text/javascript" src="http://gabelerner.github.io/canvg/StackBlur.js"></script>
